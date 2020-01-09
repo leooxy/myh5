@@ -21,7 +21,8 @@ html,body,page
         animation:x 10s infinite;
     }
     #q{
-        animation:q 10s infinite;
+            animation:q 10s infinite;
+            background-image:url("./images/背影.jpg")
     }
     #d{
         background-color:black;    
