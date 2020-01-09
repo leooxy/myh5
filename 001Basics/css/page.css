@@ -29,9 +29,18 @@ html,body,page
         animation:d 10s infinite;
     }
     #z{
-        font-size:36px;
-        display:block;
+            font-size:36px;
+            display:block;
+            animation:z 10s infinite;
     }
+        @keyframes z
+        {
+            0%{opacity:0}
+            70%{opacity:0}
+            80%{opacity:100}
+            90%{opacity:100}
+            100%{opacity:0}
+        }
         @keyframes c
         {
             0%{opacity:0}
