@@ -13,9 +13,19 @@
             height: 100%;
         }
         @keyframes myfirst{
-            from {opacity:0;}
-            to {opacity:100;}
+            0% {opacity:0}
+            25% {opacity:100}
+            50% {opacity:0}
+            100% {opacity:0}
         }
+         @keyframes mysecond{
+            0% {opacity:0}
+            50% {opacity:0}
+            75% {opacity:100}
+            100% {opacity:0}
+        }
+        #ch{animation: myfirst 1s infinite;}
+        #tt{animation: mysecond 1s infinite;}
         p{
             animation: myfirst 1s infinite;
             front-size: 100px;
@@ -27,7 +37,7 @@
 </head>
 <body>
 <audio src="wav/日语听力 - 喂，你好。.mp3"  controls="controls" autoplay="autoplay" ></audio>
-<P>沧海笑</P>
-<P>滔滔两岸朝</P>
+<P id="ch">沧海笑</P>
+<P id="tt">滔滔两岸朝</P>
 </body>
 </html>
