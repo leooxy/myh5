@@ -28,6 +28,10 @@ html,body,page
         color:white;
         animation:d 10s infinite;
     }
+    #d{
+        font-size:36px;
+        display:block;
+    }
         @keyframes c
         {
             0%{opacity:0}
