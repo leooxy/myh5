@@ -22,7 +22,7 @@ html,body,page
     }
     #q{
             animation:q 10s infinite;
-            background-image:url(./images/背影.jpg)
+            background-image:url(../images/背影.jpg)
     }
     #d{
         background-color:black;    
